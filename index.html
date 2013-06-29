@@ -1,0 +1,41 @@
+<html>
+ <head>
+  <title>Lingo</title>
+  <script src="./lingo.js"></script>
+  <script type="text/javascript">
+   //This will set up and run Lingo... Pretty simple, right?
+   lingoStart({
+    speed: 120,
+    id: "lingo",
+    text: "Dear Developer,``Thank you for downloading Lingo, an ultra simple typewriter effect for JavaScript. And yes... It's open source. Enjoy.``- Codingbean"
+   });
+  </script>
+
+  <!--What's the point of a typewriter plugin if it doesn't look the part?-->
+  <link href='http://fonts.googleapis.com/css?family=Noticia+Text' rel='stylesheet' type='text/css'>
+  <style type="text/css">
+   body {
+    /*Reset this shit...*/
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+
+    padding-top: 90px;
+    padding-bottom: 80px;
+    padding-left: 190px;
+    padding-right: 190px;
+   }
+
+   #lingo {
+   	font-family: 'Noticia Text', serif;
+   	font-size: 14px;
+   	color: #444;
+   }
+  </style>
+ </head>
+ <body>
+  <div id="lingo">
+   <!--This div will host the text...-->
+  </div>
+ </body>
+</html>
